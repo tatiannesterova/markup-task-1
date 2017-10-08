@@ -77,8 +77,9 @@ var totalTime = this.timings['look-ma-finish'] - this.timings['look-ma-im-start'
         <ul>
             <li>включаем gzip;</li>
             <li>выставляем заголовки кэширования;</li>
-            <li>фризим CSS, JS, шаблоны и картинки;</li>
-            <li>используем CDN;</li>
+            <li>фризим <abbr title="Cascading Style Sheets">CSS</abbr>, 
+                <abbr title="JavaScript">JS</abbr>, шаблоны и картинки;</li>
+            <li>используем <abbr title="Content Delivery Network">CDN</abbr>;</li>
         </ul>
         <p>Мы подумали: <q>А что если хранить где-то старую версию файлов, а при выходе новой
 передавать только diff между ней и той, которая сохранена у пользователя?</q>
@@ -87,9 +88,10 @@ var totalTime = this.timings['look-ma-finish'] - this.timings['look-ma-im-start'
 RFC 3229 «Delta encoding in HTTP» и «Google SDHC», — но по разным причинам они
 не получили должного распространения в браузерах и на серверах.
         </p>
-        <p>Мы же решили сделать свой аналог на JS. Чтобы реализовать этот метод обновления,
-начали искать реализации diff на JS. На популярных хостингах кода нашли
-библиотеки:
+        <p>Мы же решили сделать свой аналог на <abbr title="JavaScript">JS</abbr>. 
+            Чтобы реализовать этот метод обновления, начали искать реализации diff на 
+            <abbr title="JavaScript">JS</abbr>. 
+            На популярных хостингах кода нашли библиотеки:
         </p>
         <ul class="library">
         <li>VCDiff</li>
@@ -199,10 +201,12 @@ end
                 </tr>
             </tbody>
         </table>
-        <p>Автор: @doochik</p>
-        <p>С++ разработик</p>
-        <p>Электронная почта: <a href="mailto:doochik@yandex-team.ru">(doochik@yandex-team.ru)</a></p>
-        <p>Компания: Яндекс</p>
+        <address>
+            <p>Автор: @doochik</p>
+            <p>С++ разработик</p>
+            <p>Электронная почта: <a href="mailto:doochik@yandex-team.ru">(doochik@yandex-team.ru)</a></p>
+            <p>Компания: Яндекс</p>
+        </address>
     </article>
     <section class="discussion">
         <h3>Комментарии (3):</h3>
