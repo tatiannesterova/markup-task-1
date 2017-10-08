@@ -1,0 +1,35 @@
+li 
+{
+    list-style-type: none;
+}
+
+ul.library > li:before
+{
+    content: '- ';
+}
+
+li:before 
+{
+    content: '* ';
+}
+
+q
+{
+    quotes: '\00ab' '\00bb';
+}
+
+dl 
+{
+    overflow: hidden;
+}
+
+dt 
+{
+    float: left;
+    margin-right: 4px;
+}
+
+code.algorithm
+{
+    white-space: pre-wrap;
+}
